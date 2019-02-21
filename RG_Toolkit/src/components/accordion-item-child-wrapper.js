@@ -48,8 +48,8 @@ import AccordionItemChild from "./accordion-item-child"
   }
 
   const accordionItemChildren = {
-    child1: {childParent:'1', childTitle:'Design', childUrl: '/design-components/'},
-    child2: {childParent:'1', childTitle:'Templates', childUrl: '/layout-components/'},
+    child1: {childParent:'1', childTitle:'Brand', childUrl: '/design-components/'},
+    child2: {childParent:'1', childTitle:'Header', childUrl: '/header/'},
     child3: {childParent:'1', childTitle:'Form components', childUrl: '/functional-components/'},
     child4: {childParent:'1', childTitle:'Sketch Downloads', childUrl: '/dowloads/'},
     child5: {childParent:'2', childTitle:'Buttons', childUrl: '/button/'},
