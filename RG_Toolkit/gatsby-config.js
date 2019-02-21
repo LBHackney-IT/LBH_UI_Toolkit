@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `React / Gatsby UI Toolkit Boilerplate`,
+    title: `Hackney Council :  UI Toolkit`,
     description: `Use this frontend UI Boilerplate to build a Frontend Toolkit for your Organisation, Business, Local Authority, Startup, etc`,
     author: `@tweetzal`,
   },

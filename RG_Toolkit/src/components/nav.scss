@@ -1,13 +1,18 @@
+Header{
+  div{
+    padding: 30px 0 0 0;
+  }
+}
 Nav {
     div.sideBarNav{
-        background: #FFAE1E;
+        background: black;
         width: 250px;
         float: left;
         position: fixed;
         height: 100vh;
         left:0;
         top:0;
-        border-right: solid 1px #FFAE1E;
+        border-right: solid 1px black;
 
             a{
                 width: 100%;
@@ -18,7 +23,7 @@ Nav {
                 cursor: pointer;
                 &.kit-brand{
                   height: 100px;
-                  padding: 20px;
+                  padding: 30px;
                 }
                 &:hover{
                     background: black;
@@ -29,6 +34,9 @@ Nav {
                 
             }
 
+            .lb-logo{
+              margin-top:10px;
+            }
             div.accordion-item{
               width: 100%;
               float: left;
@@ -40,7 +48,7 @@ Nav {
               color:black;
               &:hover{
                   background: white;
-                  color:#FFAE1E;
+                  color:black;
                   cursor: pointer;
                   text-decoration: none;
               }
@@ -70,7 +78,7 @@ Nav {
     margin-left: -1em;
     padding-right: 1em;
     padding-left: 0.75em;
-    border-left: 0.25em solid #f99;
+    border-left: 0.25em solid black;
   }
   /**
  * Add back the container background-color, border-radius, padding, margin
