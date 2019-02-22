@@ -1,6 +1,6 @@
 
 import React from "react";
-import { Link, Image} from "gatsby"
+import { Link} from "gatsby"
 import "./nav.scss"
 import Accordion from "./accordion"
 import lbhLogo from "../images/Hackney_Logo_White.png"

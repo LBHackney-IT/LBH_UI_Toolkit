@@ -48,11 +48,11 @@ import AccordionItemChild from "./accordion-item-child"
   }
 
   const accordionItemChildren = {
-    child1: {childParent:'1', childTitle:'Brand', childUrl: '/design-components/'},
-    child2: {childParent:'1', childTitle:'Header', childUrl: '/header/'},
-    child3: {childParent:'1', childTitle:'Form components', childUrl: '/functional-components/'},
-    child4: {childParent:'1', childTitle:'Sketch Downloads', childUrl: '/dowloads/'},
-    child5: {childParent:'2', childTitle:'Buttons', childUrl: '/button/'},
-    child6: {childParent:'2', childTitle:'Button Groups', childUrl: '/button-groups/'},
+    child1: {childParent:'1', childTitle:'Header', childUrl: '/header/'},
+    child2: {childParent:'1', childTitle:'Buttons', childUrl: '/buttons/'},
+    child3: {childParent:'2', childTitle:'Button Groups', childUrl: '/button-groups/'},
+    child4: {childParent:'2', childTitle:'Brand', childUrl: '/design-components/'},
+    child5: {childParent:'2', childTitle:'Form components', childUrl: '/functional-components/'},
+    child6: {childParent:'2', childTitle:'Sketch Downloads', childUrl: '/dowloads/'},
   };
   export default AccordionItemChildWrapper

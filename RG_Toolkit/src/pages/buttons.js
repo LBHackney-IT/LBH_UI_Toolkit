@@ -16,25 +16,21 @@ const Design = () => (
     <h1>Design Components</h1>
     <h2>Render</h2>
     <pre>
-      <div>
-        <html>
-          <body>
-            <button>Save changes</button>
-          </body>
-        </html>
-      </div>
+        <div>
+          <button type="submit" class="govuk-button">
+            Save and continue
+          </button>
+        </div>
     </pre>
     <h2>Code</h2>
 
     <Highlight className='html'>
     {`   
       <div>
-      <html>
-        <body>
-          <button>Save changes</button>
-        </body>
-      </html>
-    </div>
+        <button type="submit" class="govuk-button">
+          Save and continue
+        </button>
+      </div>
     `}
     </Highlight>
 

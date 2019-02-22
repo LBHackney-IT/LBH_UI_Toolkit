@@ -15,7 +15,7 @@ class AccordionItemChild extends React.Component {
       const activeClass = this.state.active ? "active" : "inactive";
       const cDetails = this.props.childDetails;
       return (
-              <Link to={cDetails.childUrl} >{cDetails.childTitle}</Link>
+              <Link to={cDetails.childUrl} className={activeClass}>{cDetails.childTitle}</Link>
       );
     }
   }
